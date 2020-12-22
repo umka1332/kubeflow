@@ -96,7 +96,7 @@ Plugin owners have full control over plugin spec struct and implementation.
 
 ##### How to generate Istio rbac CRD types
 
-- We use kube builder https://book.kubebuilder.io/quick_start.html
+- We use kube builder https://book.kubebuilder.io/quick-start.html
 ```
 kubebuilder init --domain istio.io --license apache2 --owner "The Kubernetes Authors"
 kubebuilder create api --group rbac --version v1alpha1 --kind ServiceRole
